@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex flex-col">
     <LayoutDefaultHeader />
-    <LayoutDefaultMain>
+    <LayoutDefaultMain class="flex-1 flex flex-col">
         <slot></slot>
     </LayoutDefaultMain>
   </div>
